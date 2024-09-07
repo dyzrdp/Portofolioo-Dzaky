@@ -1,0 +1,135 @@
+* {
+    /* margin adalah ruang di sekitar border elemen */
+    margin: 0;
+    /* Padding adalah ruang antara border elemen dan konten elemen */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: rgb(124, 123, 120);
+   
+}
+/* Display flex */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(61, 61, 61);
+    color: rgb(236, 235, 235);
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: rgb(234, 231, 236);
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(51, 50, 50);
+    transition: 1s;
+    padding: 10px;
+}
+
+.contact-btn .btn {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius:  5px;
+}
+
+#Portofolio {
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Portofolio h2 {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.Project {
+    padding: 40px;
+    background-color: rgb(61, 61, 61);
+    border: 10px solid rgb(61, 61, 61);
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.Project:hover {
+    padding: 60px 20px;
+    background-color: rgb(61, 61, 61);
+    border: 10px solid rgb(61, 61, 61);
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+
+.contact-btn .btn:hover {
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 5px;
+    transition: 1s;
+}
+
+#contact {
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    color: white;
+}
+
+#contact {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+#contact ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
